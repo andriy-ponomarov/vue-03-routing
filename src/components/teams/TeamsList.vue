@@ -1,4 +1,4 @@
-<template>
+<template>  
   <ul>
     <teams-item
       v-for="team in teams"
@@ -16,7 +16,7 @@ export default {
   components: {
     TeamsItem,
   },
-  inject: ['teams'],
+  inject: ['teams']
 };
 </script>
 
